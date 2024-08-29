@@ -1,3 +1,104 @@
+# 🎲 Dice Rolling App using ReactJS 🎲
+
+🎉 Welcome to the **Dice Rolling** project! 🎉 This exciting 🥳 and interactive 🎮 application rolls two dice 🎲🎲 to display random numbers between **1️⃣** and **6️⃣**. Every time you click the button 🖱️, the dice shake 🔄 and show a new random number 🎰 on their upper faces, just like standard dice 🎲. 
+
+## 📋 Description 📋
+
+The **Dice Rolling App** 🕹️ is a fun and engaging 🎉 web application that brings the classic dice rolling experience 🎲 to your screen. The app utilizes **ReactJS** ⚛️ for seamless functionality and **CSS** 🎨 for smooth animations. Each time you roll, the dice display a random number 🆒 with standard dot patterns using the **Font Awesome** library 🎨. Whether you’re playing a game 🎲🎯 or just having fun 🕹️, this app will keep you entertained! 🎊
+
+## 🛠️ Built With 🛠️
+
+- **ReactJS** ⚛️: The core library for building interactive UIs 💻.
+- **CSS** 🎨: For stunning visual effects 🌈 and animations ✨.
+- **Font Awesome** 🎨: To display dice dots accurately ⚪⚪⚪.
+
+## 🚀 How to Use 🚀
+
+1. **Clone** the repository: `git clone https://github.com/nidhiupman568/DiceRoll-Using-React.JS.git` 🖥️.
+2. **Navigate** to the project directory: `cd dice-rolling-app` 📁.
+3. **Install** the necessary dependencies: `npm install` 📦.
+4. **Start** the application: `npm start` 🚀.
+5. **Open** your browser 🌐 and go to: `http://localhost:3000` to see the app in action! 🎲🎉
+
+## 📂 Project Structure 📂
+
+The project structure 🏗️ is organized into **components** 🧩:
+
+- **Die** 🎲: A stateless component that shows a single die with the correct dotted number. 
+- **RollDice** 🎲🎲: Contains the logic 💡 to generate random numbers and handle button clicks 🖱️. This component renders two **Die** components side by side 👫.
+
+### 🧱 Folder Structure 🧱
+
+```
+/dice-roll-app
+│
+├── /public
+│
+├── /src
+│   ├── /components
+│   │   ├── Die.js 🖥️
+│   │   ├── Die.css 🎨
+│   │   ├── RollDice.js 🖥️
+│   │   └── RollDice.css 🎨
+│   │
+│   ├── App.js 🖥️
+│   └── index.js 🖥️
+│
+├── package.json 📦
+└── README.md 📄
+```
+
+## 📦 Dependencies 📦
+
+Here are the key dependencies used 📚:
+
+- **React**: `^18.2.0` ⚛️
+- **React-DOM**: `^18.2.0` 🖥️
+- **FontAwesome**: `^6.4.0` 🎨 for icons 🖼️.
+
+```json
+"dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+}
+```
+
+## 📸 Screenshots 📸
+
+Here's how the **Dice Rolling App** 🎲 looks in action! 📷:
+
+![diceroll](https://github.com/user-attachments/assets/6395a98f-2f3e-4e21-84bb-827b001395e4)
+ 🖼️
+
+## 📚 Steps to Run the Application 📚
+
+1. **Create** the application using the following command: `npx create-react-app dice-roll` 🛠️.
+2. **Navigate** to the project folder: `cd dice-roll` 📁.
+3. **Install** the required modules 📦:
+    ```bash
+    npm i @fortawesome/fontawesome-svg-core
+    npm i @fortawesome/free-solid-svg-icons
+    npm i @fortawesome/react-fontawesome
+    ```
+4. **Create** a new directory called components 📂 and add the necessary files: `RollDice.js`, `Die.js`, `RollDice.css`, and `Die.css` 📝.
+5. **Run** the application using the following command: `npm start` 🚀.
+6. **Open** your web browser and go to `http://localhost:3000` 🌐 to view the Dice Rolling App in action! 🎉
+
+## 🎯 Conclusion 🎯
+
+Thank you for checking out the **Dice Rolling App** 🎲! Feel free to share your feedback 💬 or contribute to the project by making a pull request 🔄. Happy coding! 💻🚀
+
+## 💬 Feedback and Contributions 💬
+
+Feel free to fork 🍴 this repository and make pull requests 🔄. For any issues 🛠️ or suggestions 💡, please open an issue 🚀.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
